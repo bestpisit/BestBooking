@@ -1,0 +1,56 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .rContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .rInput {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+  }
+  
+  .rInput:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .rButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .rButton:disabled {
+    background-color: #007bff99;
+    cursor: not-allowed;
+  }
+  
+  .rButton:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  span {
+    color: red;
+    margin-top: 10px;
+    display: block;
+  }
